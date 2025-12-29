@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
-     <nav class="max-w-300 m-auto w-[90%] flex justify-between items-center  lg:flex-row gap-5 py-10">
+    <nav class="max-w-300 m-auto w-[90%] flex justify-between items-center  lg:flex-row gap-5 py-10">
         <div>
             <img src="./image/Лого (2).png" alt="">
         </div>
@@ -37,12 +39,110 @@
     </nav>
 
     <main>
-        <section  class="bg-linear-to-r from-[#5B52A3] to-[#40B8EA] max-w-350 m-auto rounded-3xl w-[90%] py-15">
+        <section class="bg-linear-to-r from-[#5B52A3] to-[#40B8EA] max-w-350 m-auto rounded-3xl w-[90%] py-15">
             <div class="max-w-300 m-auto w-[90%] flex flex-col gap-5">
-                <p class="text-[13px] text-white">Главная  /  Цены</p>
+                <p class="text-[13px] text-white">Главная / Цены</p>
                 <h1 class="lg:tex-[48px] text-[28px] font-bold text-white">Услуги доставки из Великобритании</h1>
+            </div>
+        </section>
+        <section class="max-w-300  m-auto w-[90%] py-15 flex justify-between items-center flex-col lg:flex-row gap-10">
+            <div class="lg:w-60 flex flex-col gap-4">
+                <img class="lg:w-70" src="./image/Ресурс 1 3.png" alt="">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-[18px] font-bold">Ваш личный адрес для покупок</h1>
+                    <p class="text-[18px]">на нашем современном автоматизированном складе в безналоговом Делавэре</p>
+                    <div>
+                        <button class="bg-[#41B7E9] text-white py-3 px-7 rounded-[10px]">Бесплатно</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-60 flex flex-col gap-4">
+                <img class="lg:w-70" src="./image/Ресурс 1 4.png" alt="">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-[18px] font-bold">Объединение нескольких посылок в одну</h1>
+                    <p class="text-[18px]">на нашем современном автоматизированном складе в безналоговом Делавэре</p>
+                    <div>
+                        <button class="bg-[#41B7E9] text-white py-3 px-7 rounded-[10px]">Бесплатно</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-60 flex flex-col gap-4">
+                <img class="lg:w-70" src="./image/Ресурс 1 2.png" alt="">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-[18px] font-bold">Усиленная упаковка по запросу</h1>
+                    <p class="text-[18px]">на нашем современном автоматизированном складе в безналоговом Делавэре</p>
+                    <div>
+                        <button class="bg-[#41B7E9] text-white py-3 px-7 rounded-[10px]">Бесплатно</button>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-60 flex flex-col gap-4">
+                <img class="lg:w-70" src="./image/Ресурс 1 5.png" alt="">
+                <div class="flex flex-col gap-4">
+                    <h1 class="text-[18px] font-bold">Хранение входящих посылок 30 дней</h1>
+                    <p class="text-[18px]">на нашем современном автоматизированном складе в безналоговом Делавэре</p>
+                    <div>
+                        <button class="bg-[#41B7E9] text-white py-3 px-7 rounded-[10px]">Бесплатно</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-300 m-auto w-[90%] my-15">
+            <div class="lg:w-165">
+                <h1 class="lg:text-[44px] text-[22px] font-bold">Онлайн-калькулятор
+                    стоимости доставки товара</h1>
+                <p class="text-[20px]">Задайте необходимые параметры посылки, и калькулятор рассчитает приблизительную
+                    стоимость доставки
+                    вашей посылки из Англии. </p>
+            </div>
+            <div class="shadow-2xl p-5 py-10 mt-10 rounded-2xl">
+                <div class=" flex justify-between items-center flex-col lg:flex-row gap-5">
+                    <div class="w-full lg:w-fit">
+                        <p>Страна:</p>
+                        <div class="flex items-center gap-3 border-b-2 lg:w-fit  py-3">
+                            <img src="./image/GlobeHemisphereWest.png" alt="">
+                            <select class="outline-none lg:pr-28 pr-50" name="" id="">
+                                <option value="">Россия</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div  class="w-full lg:w-fit">
+                        <p>Город:</p>
+                        <div class="flex items-center gap-3 border-b-2 lg:w-fit py-3">
+                            <img src="./image/Buildings.png" alt="">
+                            <input class="outline-none" type="text" placeholder="Москва">
+                        </div>
+                    </div>
+                    <div  class="w-full lg:w-fit" >
+                        <p>Индекс:</p>
+                        <div class="flex items-center gap-3 border-b-2 lg:w-fit py-3">
+                            <img src="./image/Notebook.png" alt="">
+                            <input class="outline-none" type="text" placeholder="Введите индекс">
+                        </div>
+                    </div>
+                    <div  class="w-full lg:w-fit">
+                        <p>Вес посылки:</p>
+                        <div class="flex items-center gap-3 border-b-2 lg:w-fit py-3">
+                            <img src="./image/Barbell.png" alt="">
+                            <input class="outline-none" type="text" placeholder="0,5">
+                        </div>
+                    </div>
+                    <div  class="w-full lg:w-fit">
+                        <p>Дополнительные услуги:</p>
+                        <div class="flex items-center gap-3 border-b-2 lg:w-fit py-3">
+                            <img src="./image/FileText.png" alt="">
+                            <select class="outline-none lg:pr-15 pr-30" name="" id="">
+                                <option value="">Выберите услуги</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-10">
+                    <button class="bg-[#00D981] text-white py-3 px-15 rounded-3xl">Рассчитать</button>
+                </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>
